@@ -38,8 +38,8 @@ namespace DAL
 
         public Repositorio()
         {
-            var mongoClient = new MongoClient("mongodb+srv://claudio:suamae123456@cluster0.e962m0s.mongodb.net/");
-            var mongoDatabase = mongoClient.GetDatabase("apdesktop");
+            var mongoClient = new MongoClient("mongodb+srv://pm214701:pm214701@cluster0.dbbjnga.mongodb.net/");
+            var mongoDatabase = mongoClient.GetDatabase("apdesktopAgenda");
             _agenda = mongoDatabase.GetCollection<Agenda>("agenda");
 
         }
